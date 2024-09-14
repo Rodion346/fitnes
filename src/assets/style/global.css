@@ -1,0 +1,33 @@
+/* src/assets/styles/global.css */
+
+:root {
+    --background-color: #2f3136; /* Темный фон */
+    --card-background: #36393f; /* Цвет фона карточек */
+    --text-color: #ffffff; /* Белый текст */
+    --primary-color: #7289da; /* Цвет акцентов */
+    --progress-color: #43b581; /* Зеленый цвет для прогресса */
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .v-card {
+    background-color: var(--card-background);
+    color: var(--text-color);
+    border-radius: 8px;
+  }
+  
+  .v-progress-circular {
+    color: var(--progress-color);
+  }
+  
+  .v-progress-linear {
+    background-color: #4f545c; /* Цвет фона шкал */
+    color: var(--progress-color);
+  }
+  
