@@ -103,3 +103,4 @@ export default {
   margin-bottom: 8px; /* Отступ между шкалами */
 }
 </style>
+
