@@ -2,6 +2,7 @@
   <v-container>
     <v-row justify="center">
       <v-col cols="12" sm="6">
+        <Home />
         <v-card class="pa-5">
           <v-card-title class="text-h6">Статистика</v-card-title>
           
@@ -62,9 +63,11 @@
 
 <script>
 import AddMealCard from '../components/AddMealCard.vue';
+import Home from '../components/Home.vue';
 
 export default {
   components: {
+    Home,
     AddMealCard,
   },
   data() {
